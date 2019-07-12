@@ -10,6 +10,6 @@ As the model processes each word (each position in the input sequence), self att
 
 If you’re familiar with RNNs, think of how maintaining a hidden state allows an RNN to incorporate its representation of previous words/vectors it has processed with the current one it’s processing. Self-attention is the method the Transformer uses to bake the “understanding” of other relevant words into the one we’re currently processing.
 
-<img src ="transformer_self-attention_visualization_3.png">
+<img src ="transformer_self-attention_visualization_3.png"> 
 
 Similarly, it could happen that if we make a change in a file it may affect the output of the other files which is called by the prevision file and may lead to a bug or if it doesn't then attention given to other files will be less as compared to the attention given to itself while predicting so the architecture will learn, whom it should give attention while giving the output, just like it does in the above problem.
