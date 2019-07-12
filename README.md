@@ -10,3 +10,4 @@ As the model processes each word (each position in the input sequence), self att
 
 If you’re familiar with RNNs, think of how maintaining a hidden state allows an RNN to incorporate its representation of previous words/vectors it has processed with the current one it’s processing. Self-attention is the method the Transformer uses to bake the “understanding” of other relevant words into the one we’re currently processing.
 
+<img src ="transformer_self-attention_visualization_3.png">
