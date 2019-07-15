@@ -18,3 +18,19 @@ Similarly, it could happen that if we make a change in a file it may affect the 
 So in order to implement this idea we group File Based on Folder i.e, all file's that are in same folder are grouped in same group and we fed this input Tensor of dimension [Batch_size, Number_of_files_in_a_Folder, number_of_featues].
 The Model output a one hot encoded tensor of dimension [Batch_size, number_of_Bugs]. 
 In our case the model predict the number of bugs that may appear in upcomming month.
+
+Hyperparameters: 
+N : Number of encoders and decoders,
+heads : Multi-Headed Attention,
+lr : learning rate,
+lr-decay,
+wd : weight-decay, Hidden layer dimension in fully connected layer, probability of dropingout weights
+
+
+Reference:
+CODE : https://towardsdatascience.com/how-to-code-the-transformer-in-pytorch-24db27c8f9ec
+and 
+MODEL : http://jalammar.github.io/illustrated-transformer/
+
+TODO : 
+Includes weigths in loss function for each class; Better Grouping fucntion; Model is not fully trained, so do experiment with the Hyperparamters.
