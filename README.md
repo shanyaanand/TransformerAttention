@@ -1,4 +1,15 @@
+Usage: 
+
+Dataloader.py : load the data
+
+eval.py : train and test model
+
+model.py, Layer.py, encoder_decoder.py, multiheaded_attention.py : Transformer Attention Model
+
+main.py : Run main.py with the path to dataset as main.py --dataroot <path to dataset>
+  
 Self-attention Model:
+
 Say the following sentence is an input sentence we want to translate,
 ”The animal didn't cross the street because it was too tired”
 
