@@ -21,29 +21,20 @@ In our case the model predict the number of bugs that may appear in upcomming mo
 
 
 Hyperparameters: 
-N : Number of encoders and decoders,
 
+N : Number of encoders and decoders,
 
 heads : Multi-Headed Attention,
 
-
 lr : learning rate,
-
 
 lr-decay,
 
-
 wd : weight-decay, Hidden layer dimension in fully connected layer, probability of dropingout weights
-
 
 Reference:
 
-
 CODE : https://towardsdatascience.com/how-to-code-the-transformer-in-pytorch-24db27c8f9ec
-
-
-and 
-
 
 MODEL : http://jalammar.github.io/illustrated-transformer/
 
