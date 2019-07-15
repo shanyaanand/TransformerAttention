@@ -41,3 +41,7 @@ MODEL : http://jalammar.github.io/illustrated-transformer/
 TODO : 
 
 Includes weigths in loss function for each class; Better Grouping fucntion; Model is not fully trained, so do experiment with the Hyperparamters.
+
+Tutorials:
+
+https://pytorch.org/tutorials/
